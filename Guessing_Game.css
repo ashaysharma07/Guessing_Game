@@ -1,0 +1,43 @@
+body{
+    margin-left: 30%;
+    margin-top: 70px;
+    display: flex;
+    height: 450px;
+    width: 500px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    background-color: #161616;
+    color: #fff;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+}
+
+#guessField { 
+    color: #000;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 2px solid #ffffff;
+    text-align: center;
+}
+
+.submit {
+   height: max-content;
+   width: max-content;
+   color: black;
+   background-color: white;
+   border-radius: 5px;
+   margin-left: 30%;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
